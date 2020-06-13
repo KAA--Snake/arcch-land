@@ -1,0 +1,24 @@
+@import './vars';
+@import './reset';
+
+body {
+  font-size: 14px;
+  //font-weight: 500;
+  //font-family: 'Roboto', sans-serif;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+  & *{
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+#App{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}

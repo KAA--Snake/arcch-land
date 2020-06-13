@@ -1,0 +1,18 @@
+.contentWrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section{
+  &Top{
+    &Header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .paragraph{}
+  }
+
+}
+
