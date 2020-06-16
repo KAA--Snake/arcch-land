@@ -18,10 +18,10 @@ export default function TopSlider() {
         loop: true,
         autoplay: {
             delay: 2500,
-            disableOnInteraction: true
+            disableOnInteraction: false
         },
         coverflowEffect: {
-            rotate: 50,
+            rotate: -30,
             stretch: 0,
             depth: 100,
             modifier: 1,
