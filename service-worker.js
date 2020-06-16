@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/arcch-land/precache-manifest.93cfd9c0b6e4f750f495116b0dd25dda.js"
+  "/arcch-land/precache-manifest.94b2a009fe711f31d8af1077a5f2bdb1.js"
 );
 
 self.addEventListener('message', (event) => {
