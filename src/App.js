@@ -68,6 +68,19 @@ function App() {
                 </div>
             </div>
         </div>
+
+        <div className={styles.sectionSample}>
+            <div className={styles.contentWrap}>
+                <h3 className={styles.sectionSampleHeader}>Пример полного дизайн-проекта</h3>
+                <div className={styles.sectionSampleContent}>
+                    <div className={`${styles.sectionSampleContentItem} ${styles.item5}`}></div>
+                    <div className={`${styles.sectionSampleContentItem} ${styles.item4}`}></div>
+                    <div className={`${styles.sectionSampleContentItem} ${styles.item3}`}></div>
+                    <div className={`${styles.sectionSampleContentItem} ${styles.item2}`}></div>
+                    <div className={`${styles.sectionSampleContentItem} ${styles.item1}`}></div>
+                </div>
+            </div>
+        </div>
     </div>
   );
 }

@@ -50,7 +50,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        height: 360px;
+        height: 380px;
         &Img{
           width: 100%;
         }
@@ -68,7 +68,7 @@
           font-size: 200px;
           font-weight: 700;
           right: 0;
-          bottom: 0;
+          bottom: 20px;
           z-index: 0;
           color: $color-main-lighter;
           opacity: 0.5;
@@ -88,6 +88,75 @@
           padding-left: 10px;
           padding-right: 10px;
           font-size: 20px;
+        }
+      }
+    }
+  }
+  &Sample {
+    background: $color-main-darker;
+    color: #ffffff;
+    padding-top: 20px;
+    &Header{
+      font-size: 30px;
+      margin-bottom: 20px;
+      margin-top: 0;
+      text-align: center;
+    }
+    &Content{
+      position: relative;
+      height: 360px;
+      &:hover{
+        .item1{
+          transform: rotate(-15deg);
+        }
+        .item2{
+          transform: rotate(-5deg);
+        }
+        .item3{
+          transform: rotate(0deg);
+        }
+        .item4{
+          transform: rotate(10deg);
+        }
+        .item5{
+          transform: rotate(25deg);
+        }
+      }
+      &Item{
+        width: 210px;
+        height: 297px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        margin-left: -105px;
+        transition: 0.3s;
+
+        &.item1{
+          background-image: url("./assets/images/sample/1.jpg");
+          transform: rotate(0deg);
+          transform-origin: bottom;
+        }
+        &.item2{
+          background-image: url("./assets/images/sample/2.jpg");
+          transform: rotate(5deg);
+          transform-origin: bottom;
+        }
+        &.item3{
+          background-image: url("./assets/images/sample/3.jpg");
+          transform: rotate(10deg);
+          transform-origin: bottom;
+        }
+        &.item4{
+          background-image: url("./assets/images/sample/4.jpg");
+          transform: rotate(15deg);
+          transform-origin: bottom;
+        }
+        &.item5{
+          background-image: url("./assets/images/sample/5.jpg");
+          transform: rotate(20deg);
+          transform-origin: bottom;
         }
       }
     }
