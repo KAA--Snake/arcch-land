@@ -137,26 +137,126 @@
           background-image: url("./assets/images/sample/1.jpg");
           transform: rotate(0deg);
           transform-origin: bottom;
+          &:hover{
+            transform: rotate(-20deg);
+          }
         }
         &.item2{
           background-image: url("./assets/images/sample/2.jpg");
           transform: rotate(5deg);
           transform-origin: bottom;
+          &:hover{
+            transform: rotate(5deg);
+          }
         }
         &.item3{
           background-image: url("./assets/images/sample/3.jpg");
           transform: rotate(10deg);
           transform-origin: bottom;
+          &:hover{
+            transform: rotate(15deg);
+          }
         }
         &.item4{
           background-image: url("./assets/images/sample/4.jpg");
           transform: rotate(15deg);
           transform-origin: bottom;
+          &:hover{
+            transform: rotate(20deg);
+          }
         }
         &.item5{
           background-image: url("./assets/images/sample/5.jpg");
           transform: rotate(20deg);
           transform-origin: bottom;
+          &:hover{
+            transform: rotate(30deg);
+          }
+        }
+      }
+    }
+  }
+  &Plan{
+    background: #ffffff;
+    color: $color-main-darker;
+    padding-top: 20px;
+    &Header{
+      font-size: 30px;
+      margin-bottom: 20px;
+      margin-top: 0;
+      text-align: center;
+    }
+    &Content{
+      position: relative;
+      .plan{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        &Img{
+          width: 40%;
+          background: #fff;
+          padding: 10px;
+          box-shadow: 2px 2px 6px 2px $color-main-darker;
+        }
+        &Text{
+          padding-left: 20px;
+        }
+      }
+      .miniProject{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-around;
+        &Img{
+          width: 40%;
+          background: #fff;
+          padding: 10px;
+          box-shadow: 2px 2px 6px 2px $color-main-darker;
+        }
+        &Text{
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+  &DopServices{
+    background: $color-main-darker;
+    color: #ffffff;
+    padding-top: 20px;
+    &Header{
+      font-size: 30px;
+      margin-bottom: 20px;
+      margin-top: 0;
+      text-align: center;
+    }
+    &Content{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      .item{
+        width: 360px;
+
+        &Header{
+          font-weight: 700;
+          font-size: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin-top: 0;
+          margin-bottom: 0;
+          position: relative;
+          z-index: 1;
+          text-align: center;
+        }
+        &Img{
+          width: 100%;
+          background: $color-main-darker;
+          padding: 10px;
+          box-shadow: 2px 2px 6px 2px #fff;
+        }
+        &Text{
+          margin-top: 20px;
+
         }
       }
     }

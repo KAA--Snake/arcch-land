@@ -1,0 +1,107 @@
+.popup {
+  &:not(.withoutPadding) {
+    .body {
+      padding: 30px;
+    }
+    .closePopupButton {
+      margin: -30px -30px 0 auto;
+    }
+  }
+  &.withoutPadding {
+    .closePopupButton {
+      margin-left: auto;
+    }
+  }
+  &.valign {
+    &Top {
+      .body {
+        .body {
+          margin-bottom: auto;
+        }
+      }
+    }
+    &Bottom {
+      .body {
+        margin-top: auto;
+      }
+    }
+
+    &Center {
+      .body {
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+  }
+  &.align {
+    &Left {
+      .body {
+        margin-right: auto;
+      }
+    }
+
+    &Right {
+      .body {
+        margin-left: auto;
+      }
+    }
+
+    &Center {
+      .body {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(2, 16, 31, 0.8);
+  transition: all 0.3s ease;
+  overflow-y: auto;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: scale(1.1);
+}
+
+.body {
+  background-color: #ffffff;
+  box-shadow: 0 11px 27px rgba(2, 16, 31, 0.2);
+  border-radius: 15px;
+  max-width: 100%;
+  outline: none;
+  cursor: default;
+}
+
+.closePopupButton {
+  display: block;
+  padding: 20px;
+}
+
+.closePopupButtonIcon {
+  width: 13px;
+  height: 13px;
+  fill: #9ea7b2;
+}
+
+.afterOpen {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.beforeClose {
+  opacity: 0;
+  visibility: visible;
+  transform: scale(1.1);
+}

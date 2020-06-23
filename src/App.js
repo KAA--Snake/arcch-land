@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import NavBar from './components/NavBar/NavBar';
 import TopSlider from './components/TopSlider/TopSlider';
+import { Modal } from './components/Modal';
 import styles from './App.module.scss';
 import stage1 from './assets/images/service/1.jpg';
 import stage2 from './assets/images/service/2.jpg';
 import stage3 from './assets/images/service/3.jpg';
 import stage4 from './assets/images/service/4.jpg';
+import plan from './assets/images/plan.jpg';
+import mini_project from './assets/images/mini_project.jpg';
+import architect from './assets/images/architect.jpg';
+import autor_nadzor from './assets/images/autor_nadzor.jpg';
+import building_works from './assets/images/building_works.jpg';
 
 function App() {
   return (
@@ -81,6 +88,64 @@ function App() {
                 </div>
             </div>
         </div>
+        <div className={styles.sectionPlan}>
+            <div className={styles.contentWrap}>
+                <h3 className={styles.sectionPlanHeader}>Планировочное решение и Мини-проект</h3>
+                <div className={styles.sectionPlanContent}>
+                    <div className={styles.plan}>
+                        <img className={styles.planImg} src={plan} alt=""/>
+                        <div className={styles.planText}>
+                            <p>Планировочное решение это основа интерьера. Нет ничего важнее правильной организации пространства. Если вы сомневаетесь, что справитесь с этой задачей самостоятельно, но не можете позволить себе дизайн проект, закажите только планировочное решение. Это будет лучшим вложением. Я предложу вам несколько вариантов планировочного решения и доработаю итоговый план.</p>
+                            <p>Данное предложение доступно при условии самостоятельного замера помещения и по удалённой схеме работы (Mail, Skype, WhatsApp).</p>
+                            <p>В итоге вы получите: варианты планировки (3-4 варианта) и итоговую планировку</p>
+                        </div>
+                    </div>
+
+                    <div className={styles.miniProject}>
+                        <img className={styles.miniProjectImg} src={mini_project} alt=""/>
+                        <div className={styles.miniProjectText}>
+                            <p>Для выполнения небольшого объёма работы, например одной комнаты, не обязательно искать сложных путей, достаточно замерить помещение, сделать фотографии и описать свои желания. Я предложу вам несколько планировочных решений и на основе одного из них подготовлю мини-проект.</p>
+                            <p>Данное предложение доступно при условии самостоятельного замера помещения площадью до 25 кв.м. и по удалённой схеме работы (Mail, Skype, WhatsApp).</p>
+                            <p>Что вы получите:</p>
+                            <p>варианты планировки (3-4 варианта)</p>
+                            <p>итоговая планировка</p>
+                            <p>визуализация помещения в масштабе (1-2шт.)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className={styles.sectionDopServices}>
+            <div className={styles.contentWrap}>
+                <h3 className={styles.sectionDopServicesHeader}>Дополнительные услуги</h3>
+                <div className={styles.sectionDopServicesContent}>
+                    <div className={styles.item}>
+                        <div className={styles.itemHeader}>Авторский надзор</div>
+                        <img className={styles.itemImg} src={autor_nadzor} alt=""/>
+                        <div className={styles.itemText}>
+                            Авторский надзор включает в себя выезды на объект для осуществления контроля над ходом строительных работ, внесение корректировок в проектную документацию, взаимодействие с подрядчиками и заказ чистовых отделочных материалов.
+                        </div>
+                    </div>
+
+                    <div className={styles.item}>
+                        <div className={styles.itemHeader}>Архитектура</div>
+                        <img className={styles.itemImg} src={architect} alt=""/>
+                        <div className={styles.itemText}>
+                            Если вы только задумываетесь о строительстве собственного дома, я готова предложить вам комплекс услуг по разработке дизайн-проекта вашего дома с нуля.
+                        </div>
+                    </div>
+
+                    <div className={styles.item}>
+                        <div className={styles.itemHeader}>Строительные работы</div>
+                        <img className={styles.itemImg} src={building_works} alt=""/>
+                        <div className={styles.itemText}>
+                            За время своей работы в области дизайна интерьера я наработала бесценные контакты. Я могу предложить вам только проверенную временем строительную бригаду. Работая с ней, вам удастся избежать многих трудностей.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <Modal isOpen={false}>content</Modal>
     </div>
   );
 }
