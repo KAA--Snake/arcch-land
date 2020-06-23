@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d0a97b6915f60289c38ee6028f2be41",
+    "revision": "42da3ce164c4c8ef88b959e225dc0f6e",
     "url": "/arcch-land/index.html"
   },
   {
-    "revision": "eb5e24816da11407bb3f",
-    "url": "/arcch-land/static/css/main.f3cc7582.chunk.css"
+    "revision": "bee80e42a10576780e6e",
+    "url": "/arcch-land/static/css/main.2b0e4118.chunk.css"
   },
   {
-    "revision": "04eb21c2a2d393f0a378",
-    "url": "/arcch-land/static/js/2.46e27d0e.chunk.js"
+    "revision": "1796f3fdc34dfa928b68",
+    "url": "/arcch-land/static/js/2.d5ea04e8.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/arcch-land/static/js/2.46e27d0e.chunk.js.LICENSE.txt"
+    "revision": "531d7b2065717e21d8dbdd1394bf24a4",
+    "url": "/arcch-land/static/js/2.d5ea04e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb5e24816da11407bb3f",
-    "url": "/arcch-land/static/js/main.a643b648.chunk.js"
+    "revision": "bee80e42a10576780e6e",
+    "url": "/arcch-land/static/js/main.3d484815.chunk.js"
   },
   {
     "revision": "5576833d5010838852c5",
@@ -80,7 +80,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/arcch-land/static/media/5.f3191841.jpg"
   },
   {
+    "revision": "aa0d2b0880491ce47e183a70a83d1566",
+    "url": "/arcch-land/static/media/architect.aa0d2b08.jpg"
+  },
+  {
+    "revision": "c43c5f1d3cbe9f292559708e1ebdd688",
+    "url": "/arcch-land/static/media/autor_nadzor.c43c5f1d.jpg"
+  },
+  {
+    "revision": "5380203f6f855f3b61fdd1fe71f8952e",
+    "url": "/arcch-land/static/media/building_works.5380203f.jpg"
+  },
+  {
     "revision": "8423d5a172c39f13b21768e8cf48f4f4",
     "url": "/arcch-land/static/media/logo.8423d5a1.svg"
+  },
+  {
+    "revision": "e0186ba347989da45c9fc9f001efa1cb",
+    "url": "/arcch-land/static/media/mini_project.e0186ba3.jpg"
+  },
+  {
+    "revision": "6c7e8b100ebdc253711a4451bdcd2bbb",
+    "url": "/arcch-land/static/media/plan.6c7e8b10.jpg"
   }
 ]);
