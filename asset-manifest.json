@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/arcch-land/static/css/main.2b0e4118.chunk.css",
-    "main.js": "/arcch-land/static/js/main.3d484815.chunk.js",
-    "main.js.map": "/arcch-land/static/js/main.3d484815.chunk.js.map",
+    "main.css": "/arcch-land/static/css/main.dd4a2a2f.chunk.css",
+    "main.js": "/arcch-land/static/js/main.485549a5.chunk.js",
+    "main.js.map": "/arcch-land/static/js/main.485549a5.chunk.js.map",
     "runtime-main.js": "/arcch-land/static/js/runtime-main.4659d800.js",
     "runtime-main.js.map": "/arcch-land/static/js/runtime-main.4659d800.js.map",
     "static/js/2.d5ea04e8.chunk.js": "/arcch-land/static/js/2.d5ea04e8.chunk.js",
     "static/js/2.d5ea04e8.chunk.js.map": "/arcch-land/static/js/2.d5ea04e8.chunk.js.map",
     "index.html": "/arcch-land/index.html",
-    "precache-manifest.b3627da855aa9114c479e5939ec27bc2.js": "/arcch-land/precache-manifest.b3627da855aa9114c479e5939ec27bc2.js",
+    "precache-manifest.7e6f05fa382d2899ce75421e4dfaf5ef.js": "/arcch-land/precache-manifest.7e6f05fa382d2899ce75421e4dfaf5ef.js",
     "service-worker.js": "/arcch-land/service-worker.js",
-    "static/css/main.2b0e4118.chunk.css.map": "/arcch-land/static/css/main.2b0e4118.chunk.css.map",
+    "static/css/main.dd4a2a2f.chunk.css.map": "/arcch-land/static/css/main.dd4a2a2f.chunk.css.map",
     "static/js/2.d5ea04e8.chunk.js.LICENSE.txt": "/arcch-land/static/js/2.d5ea04e8.chunk.js.LICENSE.txt",
-    "static/media/1.jpg": "/arcch-land/static/media/1.c59cb4c8.jpg",
+    "static/media/1.jpg": "/arcch-land/static/media/1.3c436082.jpg",
     "static/media/App.module.scss": "/arcch-land/static/media/5.42afb591.jpg",
-    "static/media/2.jpg": "/arcch-land/static/media/2.cb8b8ab6.jpg",
+    "static/media/2.jpg": "/arcch-land/static/media/2.a7632618.jpg",
     "static/media/3.jpg": "/arcch-land/static/media/3.f4dfffad.jpg",
-    "static/media/4.jpg": "/arcch-land/static/media/4.735f1a49.jpg",
-    "static/media/5.jpg": "/arcch-land/static/media/5.f3191841.jpg",
+    "static/media/4.jpg": "/arcch-land/static/media/4.a7632618.jpg",
+    "static/media/5.jpg": "/arcch-land/static/media/5.644654ca.jpg",
     "static/media/architect.jpg": "/arcch-land/static/media/architect.aa0d2b08.jpg",
     "static/media/autor_nadzor.jpg": "/arcch-land/static/media/autor_nadzor.c43c5f1d.jpg",
     "static/media/building_works.jpg": "/arcch-land/static/media/building_works.5380203f.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.4659d800.js",
     "static/js/2.d5ea04e8.chunk.js",
-    "static/css/main.2b0e4118.chunk.css",
-    "static/js/main.3d484815.chunk.js"
+    "static/css/main.dd4a2a2f.chunk.css",
+    "static/js/main.485549a5.chunk.js"
   ]
 }
