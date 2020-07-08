@@ -15,9 +15,9 @@ export default function NavBar() {
                 <li className={styles.navItem}>
                     <a href="#" className={styles.navItemLink}>Услуги</a>
                 </li>
-                <li className={styles.navItem}>
-                    <a href="#" className={styles.navItemLink}>Портфолио</a>
-                </li>
+                {/*<li className={styles.navItem}>*/}
+                {/*    <a href="#" className={styles.navItemLink}>Портфолио</a>*/}
+                {/*</li>*/}
                 <li className={styles.navItem}>
                     <a href="#" className={styles.navItemLink}>Контакты</a>
                 </li>

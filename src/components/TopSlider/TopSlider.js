@@ -1,11 +1,11 @@
 import React from 'react';
 import './swiper.css';
 import Swiper from 'react-id-swiper';
-import slide1 from '../../assets/images/top_slider/1.jpg';
-import slide2 from '../../assets/images/top_slider/2.jpg';
-import slide3 from '../../assets/images/top_slider/3.jpg';
-import slide4 from '../../assets/images/top_slider/4.jpg';
-import slide5 from '../../assets/images/top_slider/5.jpg';
+import slide1 from '../../assets/images/top_slider2/1.jpg';
+import slide2 from '../../assets/images/top_slider2/2.jpg';
+import slide3 from '../../assets/images/top_slider2/3.jpg';
+import slide4 from '../../assets/images/top_slider2/4.jpg';
+import slide5 from '../../assets/images/top_slider2/5.jpg';
 import styles from './TopSlider.module.scss';
 
 export default function TopSlider() {

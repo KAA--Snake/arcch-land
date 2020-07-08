@@ -23,29 +23,25 @@ function App() {
             <div className={styles.contentWrap}>
                 <div className={styles.sectionTop}>
                     <div className={styles.sectionTopHeader}>
-                        <h1>Natalya Kozlova</h1>
-                        <h2>TVER</h2>
+                        <h1>Дизайнер интерьера</h1>
+                        <h2>Наталья Козлова</h2>
                     </div>
-
-                    <p className={styles.paragraph}>
-                        Интерьер вашего дома, квартиры или офиса можно сделать более комфортным, функциональным и уникальным. Вы сможете увидеть новые возможности знакомого пространства.
-                        Проекты разрабатываются с точки зрения удобства и эстетически приятного взаимодействия среды с людьми: будь это небольшая студия или приусадебный участок, дизайн подстроится под ваши потребности, с учётом всех требований к дизайну архитектурной среды.
-                        От Вас необходимо только поделиться предпочтениями в стилистике дизайна и рассказать, что бы Вы хотели увидеть, какую атмосферу в среде создать.
-                    </p>
-
+                    <p className={styles.paragraph}>Интерьер вашего дома, квартиры или офиса можно сделать более комфортным, функциональным и уникальным. Вы сможете увидеть новые возможности знакомого пространства.</p>
+                    <p className={styles.paragraph}>Проекты разрабатываются с точки зрения удобства и эстетически приятного взаимодействия среды с людьми: будь это небольшая студия или приусадебный участок, дизайн подстроится под ваши потребности, с учётом всех требований к дизайну архитектурной среды.</p>
+                    <p className={styles.paragraph}>От Вас необходимо только поделиться предпочтениями в стилистике дизайна и рассказать, что бы Вы хотели увидеть, какую атмосферу в среде создать.</p>
                 </div>
             </div>
         </div>
 
         <div className={styles.sectionStages}>
             <div className={styles.contentWrap}>
-                <h3 className={styles.sectionStagesHeader}>Процесс создания интерьера. <br/> Этапы работы над полным дизайн-проектом</h3>
+                <h3 className={styles.sectionStagesHeader}>Процесс создания интерьера:</h3>
                 <div className={styles.stageWrap}>
                     <div className={styles.stageItem}>
                         <img src={stage1} className={styles.stageItemImg} alt=""/>
                         <div className={styles.stageItemNum}>1</div>
                         <div className={styles.stageItemHeader}>ЭСКИЗНЫЙ ПРОЕКТ</div>
-                        <div className={styles.stageItemText}>первый этап проектирования интерьера. На этом этапе происходит знакомство дизайнера и клиента.</div>
+                        <div className={styles.stageItemText}>Знакомство дизайнера и клиента, составление технического задания на проектирование, замер помещения и фотосъёмка, прорабатываются варианты планировочного решения.</div>
                         <button className={styles.stageItemMoreBtn}>Подробнее</button>
                     </div>
 
@@ -53,7 +49,7 @@ function App() {
                         <img src={stage2} className={styles.stageItemImg} alt=""/>
                         <div className={styles.stageItemNum}>2</div>
                         <div className={styles.stageItemHeader}>ВИЗУАЛИЗАЦИЯ ИНТЕРЬЕРА</div>
-                        <div className={styles.stageItemText}>На втором этапе концепция интерьера  и объёмно-пространственное решение детализируются и визуализируются.</div>
+                        <div className={styles.stageItemText}>Детальная визуализация концепции интерьера с подобранными материалами, мебелью, светильниками и другими предметами интерьера.</div>
                         <button className={styles.stageItemMoreBtn}>Подробнее</button>
                     </div>
 
@@ -61,7 +57,7 @@ function App() {
                         <img src={stage3} className={styles.stageItemImg} alt=""/>
                         <div className={styles.stageItemNum}>3</div>
                         <div className={styles.stageItemHeader}>РАБОЧИЙ ПРОЕКТ</div>
-                        <div className={styles.stageItemText}>В рабочий проект входят все чертежи, необходимые для реализации проекта.</div>
+                        <div className={styles.stageItemText}>Рабочий проект представляет собой альбом чертежей, необходимых для реализации проекта строительной бригадой.</div>
                         <button className={styles.stageItemMoreBtn}>Подробнее</button>
                     </div>
 
@@ -69,7 +65,7 @@ function App() {
                         <img src={stage4} className={styles.stageItemImg} alt=""/>
                         <div className={styles.stageItemNum}>4</div>
                         <div className={styles.stageItemHeader}>ПОДБОР И СПЕЦИФИКАЦИИ</div>
-                        <div className={styles.stageItemText}>На этом этапе выбираются все отделочные материалы и составляется подробная спецификация.</div>
+                        <div className={styles.stageItemText}>Окончательный подбор и уточнение всех отделочных  материалов,  сантехники, светильников и мебели.</div>
                         <button className={styles.stageItemMoreBtn}>Подробнее</button>
                     </div>
                 </div>
@@ -90,11 +86,11 @@ function App() {
         </div>
         <div className={styles.sectionPlan}>
             <div className={styles.contentWrap}>
-                <h3 className={styles.sectionPlanHeader}>Планировочное решение и Мини-проект</h3>
                 <div className={styles.sectionPlanContent}>
                     <div className={styles.plan}>
                         <img className={styles.planImg} src={plan} alt=""/>
                         <div className={styles.planText}>
+                            <h3>Планировочное решение</h3>
                             <p>Планировочное решение это основа интерьера. Нет ничего важнее правильной организации пространства. Если вы сомневаетесь, что справитесь с этой задачей самостоятельно, но не можете позволить себе дизайн проект, закажите только планировочное решение. Это будет лучшим вложением. Я предложу вам несколько вариантов планировочного решения и доработаю итоговый план.</p>
                             <p>Данное предложение доступно при условии самостоятельного замера помещения и по удалённой схеме работы (Mail, Skype, WhatsApp).</p>
                             <p>В итоге вы получите: варианты планировки (3-4 варианта) и итоговую планировку</p>
@@ -104,6 +100,7 @@ function App() {
                     <div className={styles.miniProject}>
                         <img className={styles.miniProjectImg} src={mini_project} alt=""/>
                         <div className={styles.miniProjectText}>
+                            <h3>Мини-проект</h3>
                             <p>Для выполнения небольшого объёма работы, например одной комнаты, не обязательно искать сложных путей, достаточно замерить помещение, сделать фотографии и описать свои желания. Я предложу вам несколько планировочных решений и на основе одного из них подготовлю мини-проект.</p>
                             <p>Данное предложение доступно при условии самостоятельного замера помещения площадью до 25 кв.м. и по удалённой схеме работы (Mail, Skype, WhatsApp).</p>
                             <p>Что вы получите:</p>
