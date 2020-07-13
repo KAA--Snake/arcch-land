@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import NavBar from './components/NavBar/NavBar';
 import TopSlider from './components/TopSlider/TopSlider';
+import ProjectSampleModal from './components/ProjectSampleModal/ProjectSampleModal';
 import { Modal } from './components/Modal';
 import styles from './App.module.scss';
 import stage1 from './assets/images/service/1.jpg';
@@ -15,7 +16,8 @@ import autor_nadzor from './assets/images/autor_nadzor.jpg';
 import building_works from './assets/images/building_works.jpg';
 
 function App() {
-  return (
+    const [projectSampleModalIsopened, setProjectSampleModalOpened] = useState(false);
+    return (
     <div id="App" className={styles.App}>
         <NavBar />
         <TopSlider/>
@@ -75,7 +77,7 @@ function App() {
         <div className={styles.sectionSample}>
             <div className={styles.contentWrap}>
                 <h3 className={styles.sectionSampleHeader}>Пример полного дизайн-проекта</h3>
-                <div className={styles.sectionSampleContent}>
+                <div className={styles.sectionSampleContent} onClick={() => {setProjectSampleModalOpened(true)}}>
                     <div className={`${styles.sectionSampleContentItem} ${styles.item5}`}></div>
                     <div className={`${styles.sectionSampleContentItem} ${styles.item4}`}></div>
                     <div className={`${styles.sectionSampleContentItem} ${styles.item3}`}></div>
@@ -143,6 +145,10 @@ function App() {
             </div>
         </div>
         <Modal isOpen={false}>content</Modal>
+        <ProjectSampleModal
+            isOpened={projectSampleModalIsopened}
+            onCloseModal={()=>{setProjectSampleModalOpened(false)}}
+        />
     </div>
   );
 }
