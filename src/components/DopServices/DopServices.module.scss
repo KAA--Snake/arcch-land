@@ -1,1 +1,50 @@
-@import "./assets/styles/vars";
+@import "../../assets/styles/vars";
+.contentWrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.sectionDopServices{
+  background: $color-main-darker;
+  color: #ffffff;
+  padding-top: 20px;
+  &Header{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+  &Content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .item{
+      width: 360px;
+
+      &Header{
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+      }
+      &Img{
+        width: 100%;
+        background: $color-main-darker;
+        padding: 10px;
+        box-shadow: 2px 2px 6px 2px #fff;
+      }
+      &Text{
+        margin-top: 20px;
+
+      }
+    }
+  }
+}

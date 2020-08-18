@@ -1,7 +1,7 @@
-import styles from "../../App.module.scss";
+import styles from "./TopSection.module.scss";
 import React from "react";
 
-export default function () {
+export default function TopSection() {
 return <div className={styles.sectionTopOuter}>
     <div className={styles.contentWrap}>
         <div className={styles.sectionTop}>

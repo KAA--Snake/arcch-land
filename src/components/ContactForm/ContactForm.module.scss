@@ -1,0 +1,55 @@
+@import "../../assets/styles/vars";
+.contentWrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.ContactFormSection{
+  background: #ffffff;
+  color: $color-main-darker;
+  padding-top: 20px;
+  &Header{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &Wrap{
+      width: 50%;
+      margin: 0 auto;
+    }
+    &Input{
+      margin-bottom: 20px;
+      width: 100%;
+      line-height: 20px;
+      font-size: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &Textarea{
+      width: 100%;
+      line-height: 20px;
+      font-size: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 20px;
+    }
+    &SubmitBtn{
+      border: none;
+      background-color: $color-main;
+      color: #ffffff;
+      text-align: center;
+      line-height: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

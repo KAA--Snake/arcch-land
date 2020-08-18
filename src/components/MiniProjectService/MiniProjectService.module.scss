@@ -1,0 +1,59 @@
+@import "../../assets/styles/vars";
+.contentWrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.sectionPlan{
+  background: #ffffff;
+  color: $color-main-darker;
+  padding-top: 20px;
+  &Header{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+  &Content{
+    position: relative;
+    .plan{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      margin-bottom: 20px;
+      &Img{
+        width: 40%;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 2px 2px 6px 2px $color-main-darker;
+      }
+      &Text{
+        h3{
+          margin-top: 0;
+        }
+        padding-left: 20px;
+        text-align: end;
+      }
+    }
+    .miniProject{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      justify-content: space-around;
+      &Img{
+        width: 40%;
+        background: #fff;
+        padding: 10px;
+        box-shadow: 2px 2px 6px 2px $color-main-darker;
+      }
+      &Text{
+        h3{
+          margin-top: 0;
+        }
+        padding-right: 20px;
+      }
+    }
+  }
+}

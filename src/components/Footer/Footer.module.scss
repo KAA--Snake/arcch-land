@@ -1,0 +1,32 @@
+@import "../../assets/styles/vars";
+
+.footer{
+  background-color: $color-main-light;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+}
+.name{
+  color: #ffffff;
+}
+.info{
+  address{
+    .creds{
+      a{
+        color: white;
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+}
+.logo{
+  display: block;
+  height: 40px;
+  &Img{
+    height: 40px;
+  }
+}
