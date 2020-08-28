@@ -1,0 +1,19 @@
+.header{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+.content{
+  max-width: 600px;
+  position: relative;
+}
+.img{
+  width: 100%;
+}
+.text{
+  margin-bottom: 20px;
+}
+.list{
+  &Item{}
+}

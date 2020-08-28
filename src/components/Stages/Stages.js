@@ -1,11 +1,19 @@
 import styles from "./Stages.module.scss";
-import React from "react";
+import React, {useState} from 'react';
 import stage1 from "../../assets/images/service/1.jpg";
 import stage2 from "../../assets/images/service/2.jpg";
 import stage3 from "../../assets/images/service/3.jpg";
 import stage4 from "../../assets/images/service/4.jpg";
+import StageModal from "./StageModal/StageModal";
 
 export default function Stages() {
+    const [stageOpened, setStageOpened] = useState(null);
+    const onCloseStage = () => {
+        setStageOpened(null);
+    }
+    const onOpenStage = (stage) => {
+        setStageOpened(stage);
+    }
     return <div className={styles.sectionStages}>
         <div className={styles.contentWrap}>
             <h3 className={styles.sectionStagesHeader}>Процесс создания интерьера:</h3>
@@ -18,7 +26,10 @@ export default function Stages() {
                         задания на проектирование, замер помещения и фотосъёмка, прорабатываются варианты планировочного
                         решения.
                     </div>
-                    <button className={styles.stageItemMoreBtn}>Подробнее</button>
+                    <button className={styles.stageItemMoreBtn} onClick={() => {
+                        onOpenStage(1)
+                    }}>Подробнее
+                    </button>
                 </div>
 
                 <div className={styles.stageItem}>
@@ -28,7 +39,10 @@ export default function Stages() {
                     <div className={styles.stageItemText}>Детальная визуализация концепции интерьера с подобранными
                         материалами, мебелью, светильниками и другими предметами интерьера.
                     </div>
-                    <button className={styles.stageItemMoreBtn}>Подробнее</button>
+                    <button className={styles.stageItemMoreBtn} onClick={() => {
+                        onOpenStage(2)
+                    }}>Подробнее
+                    </button>
                 </div>
 
                 <div className={styles.stageItem}>
@@ -38,7 +52,10 @@ export default function Stages() {
                     <div className={styles.stageItemText}>Рабочий проект представляет собой альбом чертежей, необходимых
                         для реализации проекта строительной бригадой.
                     </div>
-                    <button className={styles.stageItemMoreBtn}>Подробнее</button>
+                    <button className={styles.stageItemMoreBtn} onClick={() => {
+                        onOpenStage(3)
+                    }}>Подробнее
+                    </button>
                 </div>
 
                 <div className={styles.stageItem}>
@@ -48,9 +65,13 @@ export default function Stages() {
                     <div className={styles.stageItemText}>Окончательный подбор и уточнение всех отделочных материалов,
                         сантехники, светильников и мебели.
                     </div>
-                    <button className={styles.stageItemMoreBtn}>Подробнее</button>
+                    <button className={styles.stageItemMoreBtn} onClick={() => {
+                        onOpenStage(4)
+                    }}>Подробнее
+                    </button>
                 </div>
             </div>
         </div>
+        <StageModal isOpened={stageOpened} onCloseModal={onCloseStage}/>
     </div>
 }
