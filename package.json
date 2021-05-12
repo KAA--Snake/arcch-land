@@ -16,7 +16,7 @@
     "react-modal": "^3.11.2",
     "react-notify-toast": "^0.5.1",
     "react-scripts": "3.4.1",
-    "swiper": "^5.4.3"
+    "swiper": "^6.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
